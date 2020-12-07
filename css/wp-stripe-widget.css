@@ -3,6 +3,7 @@
 }
 
 .wp-stripe-recent .stripe-item {
+<<<<<<< HEAD
     min-height: 70px;
     position: relative;
     margin: 5px 0;
@@ -14,12 +15,26 @@
     left: 0;
     width: 50px;
     height: 50px;
+=======
+    min-height:70px;
+    position:relative;
+    margin:5px 0;
+}
+
+.wp-stripe-recent .stripe-item img.avatar {
+    position:absolute;
+    top:0;
+    left:0;
+    width:50px;
+    height:50px;
+>>>>>>> 9c61036703c947ca47b86ea22f3be39a8e8b4d6e
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
 }
 
 .wp-stripe-recent .stripe-item .stripe-recent-comment {
+<<<<<<< HEAD
     padding-left: 60px;
 }
 
@@ -29,13 +44,32 @@
 
 .wp-stripe-recent .stripe-item .stripe-recent-content:after {
     content: '\2019';
+=======
+    padding-left:60px;
+}
+
+.wp-stripe-recent .stripe-item .stripe-recent-content:before {
+    content:'\2018';
+}
+
+.wp-stripe-recent .stripe-item .stripe-recent-content:after {
+    content:'\2019';
+>>>>>>> 9c61036703c947ca47b86ea22f3be39a8e8b4d6e
 }
 
 .wp-stripe-recent .stripe-item .stripe-recent-name {
     margin: 0 0 0.5em 0;
+<<<<<<< HEAD
     font-weight: bold;
 }
 
 .wp-stripe-recent .stripe-item .stripe-recent-content {
     color: #777;
+=======
+    font-weight:bold;
+}
+
+.wp-stripe-recent .stripe-item .stripe-recent-content {
+    color:#777;
+>>>>>>> 9c61036703c947ca47b86ea22f3be39a8e8b4d6e
 }
